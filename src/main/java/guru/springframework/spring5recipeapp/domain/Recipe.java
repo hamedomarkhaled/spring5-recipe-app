@@ -23,8 +23,6 @@ public class Recipe {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe")
     private Set<Ingredient> ingredients;
 
-
-    //private Difficulty difficulty;
     @Lob
     private Byte[] image;
 
