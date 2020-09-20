@@ -2,6 +2,7 @@ package guru.springframework.spring5recipeapp.domain;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.Set;
 
 @Entity
 public class Ingredient {
